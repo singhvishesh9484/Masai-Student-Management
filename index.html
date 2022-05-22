@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin panel database</title>
+    <style>
+        #navbar{
+            display:flex;
+            gap:10px;
+            border:1px solid black;
+            background-color:teal; 
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar"></div>
+    
+    <h1>Add Student Data</h1>
+    <form onsubmit="MStudent(event)" id="student">
+        <input type="text" id="name" placeholder="student name"/><br><br>
+        <input type="text" id="course" placeholder="course"/><br><br>
+        <input type="text" id="unit" placeholder="unit"/><br><br>
+        <input type="url" id="image" placeholder="Image Link"/><br><br>
+        <input type="text" id="batch" placeholder="batch"/><br><br>
+        
+        <input type="submit" id="add"/>
+    </form> 
+    <button><a href="dashboard.html">Dashboard Page</a></button>
+
+</body>
+</html>
+<script src="./index.js"></script>
